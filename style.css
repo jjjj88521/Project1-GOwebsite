@@ -60,6 +60,11 @@ main {
   flex-wrap: wrap;
 }
 
+main.no-flex {
+  display: block;
+  flex-wrap: wrap;
+}
+
 main section {
   padding: 1rem;
 }
@@ -98,14 +103,32 @@ section.right h3 {
 }
 
 p {
+  /* padding: 0.5rem 0rem; */
+  text-indent: 2rem;
+}
+
+p.no-indent {
   padding: 0.5rem 0rem;
+  text-indent: 0rem;
 }
 
 section.right ul {
   margin-left: 1.5rem;
 }
 
-/* 棋士框框*/
 .player {
-  border: 2px solid;
+  margin: 2rem;
+  border: 4px solid burlywood;
+  padding: 0.5rem;
+}
+
+.player h4 {
+  font-size: 1.5rem;
+  color: rgb(0, 90, 91);
+  font-weight: bold;
+}
+
+.player h5 {
+  font-size: 1.05rem;
+  color: rgb(6, 120, 120);
 }
