@@ -98,8 +98,9 @@ section.right {
 }
 
 section.right h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-top: 0.5rem;
+  color: rgb(0, 90, 91);
 }
 
 p {
@@ -174,4 +175,21 @@ div.competition div.text {
 #piechart {
   flex: 1 1 300px;
   max-width: 50vh;
+}
+
+div.info h3 {
+  font-size: 2rem;
+  color: rgb(0, 90, 91);
+}
+
+table.china-team tr,
+th,
+td {
+  padding: 0.25rem;
+  border: solid 0.1rem;
+  border-color: white;
+}
+table.china-team tr th {
+  background-color: rgb(8, 155, 155);
+  color: white;
 }
